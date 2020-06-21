@@ -30,7 +30,7 @@ The project is already compatible with heroku. Just publish it.
 
 ## Authors
 
-* **Maitreya Patni** - *Everything* - [Github](https://github.com/Maitreya29) [Website](https://maitreyap.xyz)
+* **Maitreya Patni** - *Everything* - [Github](https://github.com/Maitreya29) | [Website](https://maitreyap.xyz)
 
 ## License
 
