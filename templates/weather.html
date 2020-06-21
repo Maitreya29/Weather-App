@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item">weather</li>
+  </ol>
+<div class="jumbotron">
+    <h1 class="display-3">{{ name }} </h1>
+    <p class="lead">Sunrise: {{ sunrise }}, Sunset: {{ sunset }}</p>
+    <hr class="my-4">
+    <p>Minimum Temperature: {{ temp_min }}°C, Maximum Temperature: {{ temp_max }}°C </p>
+  </div>
+{% endblock %}

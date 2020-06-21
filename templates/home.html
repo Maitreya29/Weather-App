@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+  </ol>
+    <form action="search" method="POST">
+        {% csrf_token %}
+        <label class="col-form-label" for="inputDefault">Enter Zipcode</label>
+        <input type="text" class="form-control" name="zip" placeholder="Zipcode">
+        <label class="col-form-label" for="inputDefault">Enter country code (example US, IN, UK)</label>
+        <input type="text"  class="form-control" name="country" placeholder="Country code (example: us)">
+        <br>
+        <input type="submit" class="btn btn-primary btn-lg btn-block">
+        
+    </form>
+{% endblock %}
